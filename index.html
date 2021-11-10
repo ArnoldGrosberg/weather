@@ -6,11 +6,28 @@
 		<title> Current Weather</title>
 	</head>
 	<body>
-		<div id="weather">
-			<div id="description"></div>
-			<h1 id="temp"></h1>
-			<div id="location"></div>
-		</div>
-		<script src="app.js"></script>
+
+	<div id="weather" class="container">
+		<div class="row">
+			<div class="col s6 offset-s3">
+				<div class="card-panel red lighten-1">
+					<div class="card-content">
+						<div id="weather" class="row center-align">
+							<h3 id="location" class="bold"></h3>
+							<h1 id="temp"></h1>
+							<h5 id="description"></h5>
+							<div class="input-field col s12">
+								<input id="city-name" type="text" >
+								<label for="city-name">Type in city name</label>
+							</div>
+							<input type="submit" value="input" class="btn">
+						</div>	
+					</div>
+				</div>
+
+		<script src="classes/LS.js"></script>
+		<script src="classes/Weather.js"></script>
+		<script src="classes/UI.js"></script>
+		<script src="app2.js"></script>
 	</body>
 </html>
