@@ -1,6 +1,7 @@
 class LS {
 	constructor(){
 		this.city;
+		this.city;
 		this.defaultCity = 'Tallinn';
 	}
 
